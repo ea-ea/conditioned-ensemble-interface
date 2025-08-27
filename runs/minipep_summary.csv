@@ -1,0 +1,3 @@
+id,n_poses_in,n_pass,pass_rate,aggregate_method,aggregate_score
+complex1,2,2,1.0,softmax,0.7310468955677737
+complex2,2,2,1.0,softmax,0.9999851779133153

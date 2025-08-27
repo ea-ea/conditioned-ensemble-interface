@@ -1,0 +1,3 @@
+id,poses,native_pose,pH,ionic_strength
+complex1,"benchmarks/minipep/structures/complex1_poseA.pdb;benchmarks/minipep/structures/complex1_poseB.pdb",benchmarks/minipep/structures/complex1_poseA.pdb,7.4,0.15
+complex2,"benchmarks/minipep/structures/complex2_poseA.pdb;benchmarks/minipep/structures/complex2_poseB.pdb",benchmarks/minipep/structures/complex2_poseB.pdb,6.8,0.20

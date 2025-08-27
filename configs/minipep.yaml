@@ -1,0 +1,14 @@
+dataset:
+  items:
+    - id: "complex1"
+      poses:
+        - "benchmarks/minipep/structures/complex1_poseA.pdb"
+        - "benchmarks/minipep/structures/complex1_poseB.pdb"
+      conditions: { pH: 7.4, ionic_strength: 0.15 }
+    - id: "complex2"
+      poses:
+        - "benchmarks/minipep/structures/complex2_poseA.pdb"
+        - "benchmarks/minipep/structures/complex2_poseB.pdb"
+      conditions: { pH: 6.8, ionic_strength: 0.20 }
+model:
+  path: "artifacts/minipep_model.joblib"
