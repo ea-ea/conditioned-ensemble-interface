@@ -1,0 +1,2 @@
+{"id": "toy-1", "poses": ["examples/pose1.pdb", "examples/pose2.pdb"], "conditions": {"pH": 7.4, "ionic_strength": 0.15}, "label": {"native_pose": "examples/pose1.pdb"}}
+{"id":"toy-2","poses":["examples/pose1.pdb","examples/pose2.pdb"],"conditions":{"pH":6.8,"ionic_strength":0.20},"label":{"native_pose":"examples/pose2.pdb"}}

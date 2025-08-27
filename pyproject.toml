@@ -1,0 +1,21 @@
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conditioned-ensemble-interface"
+version = "0.0.1"
+description = "Multi-state, condition-aware scoring and design for biomolecular interactions"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT License"}
+authors = [{name="Your Name"}]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License"]
+dependencies = ["numpy","scipy","pandas","networkx","biopython","pyyaml","tqdm","rdkit-pypi; python_version >= '3.9'","torch"]
+
+[project.optional-dependencies]
+dev = ["pytest","ruff","black","mypy"]
+
+[project.scripts]
+cei = "conditioned_ensemble_interface.cli:main"

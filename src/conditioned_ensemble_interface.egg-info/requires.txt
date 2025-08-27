@@ -1,0 +1,17 @@
+numpy
+scipy
+pandas
+networkx
+biopython
+pyyaml
+tqdm
+torch
+
+[:python_version >= "3.9"]
+rdkit-pypi
+
+[dev]
+pytest
+ruff
+black
+mypy

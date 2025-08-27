@@ -1,0 +1,8 @@
+
+dataset: datasets/train.jsonl
+pred: runs/out_learned.jsonl
+out: runs/summary.csv
+filtered: runs/filtered_predictions.jsonl
+method: softmax
+temperature: 1.0
+min_atoms_per_chain: 2

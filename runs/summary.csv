@@ -1,0 +1,2 @@
+id,n_poses_in,n_pass,pass_rate,aggregate_method,aggregate_score
+toy-1,2,2,1.0,softmax,0.9045803038715831

@@ -1,0 +1,11 @@
+dataset:
+  items:
+    - id: "toy-1"
+      poses: ["examples/pose1.pdb", "examples/pose2.pdb"]
+      conditions:
+        pH: 7.0
+        ionic_strength: 0.15
+        cofactor: false
+        glycosaminoglycan_sulfation_level: 0.0
+model:
+  path: "artifacts/model.joblib"

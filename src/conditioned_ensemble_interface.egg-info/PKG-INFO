@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: conditioned-ensemble-interface
+Version: 0.0.1
+Summary: Multi-state, condition-aware scoring and design for biomolecular interactions
+Author: Your Name
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: networkx
+Requires-Dist: biopython
+Requires-Dist: pyyaml
+Requires-Dist: tqdm
+Requires-Dist: rdkit-pypi; python_version >= "3.9"
+Requires-Dist: torch
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Dynamic: license-file
+
+# Conditioned Ensemble Interface
+
+Professional starter skeleton.
