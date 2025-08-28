@@ -13,7 +13,7 @@ open runs/summary.html
 
 Professional starter skeleton.
 ## Condition sensitivity demo
-We sweep pH and ionic strength and aggregate the pose scores.
+Sweep pH and ionic strength and aggregate the pose scores.
 
 ![sweep](runs/sweep_toy-1.png)
 
