@@ -1,0 +1,2 @@
+id,n_poses_in,n_pass,pass_rate,aggregate_method,aggregate_score
+3ptb,11,1,0.09090909090909091,softmax,0.9999647089058453

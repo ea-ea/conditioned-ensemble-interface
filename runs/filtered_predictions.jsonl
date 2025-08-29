@@ -1,2 +1,1 @@
-{"id": "complex1", "scores": [{"pose": "benchmarks/minipep/structures/complex1_poseA.pdb", "score": 0.9999851779133154}, {"pose": "benchmarks/minipep/structures/complex1_poseB.pdb", "score": 2.857293564334144e-05}]}
-{"id": "complex2", "scores": [{"pose": "benchmarks/minipep/structures/complex2_poseA.pdb", "score": 0.9999851779133154}, {"pose": "benchmarks/minipep/structures/complex2_poseB.pdb", "score": 0.9999851779133154}]}
+{"id": "3ptb", "scores": [{"pose": "runs/3ptb_complexes/complex_native.pdb", "score": 0.9999647089058454}]}

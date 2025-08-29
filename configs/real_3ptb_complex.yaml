@@ -1,0 +1,18 @@
+dataset:
+  items:
+    - id: "3ptb"
+      poses:
+        - "runs/3ptb_complexes/complex_native.pdb"
+        - "runs/3ptb_complexes/complex_pose_1.pdb"
+        - "runs/3ptb_complexes/complex_pose_2.pdb"
+        - "runs/3ptb_complexes/complex_pose_3.pdb"
+        - "runs/3ptb_complexes/complex_pose_4.pdb"
+        - "runs/3ptb_complexes/complex_pose_5.pdb"
+        - "runs/3ptb_complexes/complex_pose_6.pdb"
+        - "runs/3ptb_complexes/complex_pose_7.pdb"
+        - "runs/3ptb_complexes/complex_pose_8.pdb"
+        - "runs/3ptb_complexes/complex_pose_9.pdb"
+        - "runs/3ptb_complexes/complex_pose_10.pdb"
+      conditions: { pH: 7.4, ionic_strength: 0.15 }
+model:
+  path: "artifacts/real_3ptb_complex.joblib"

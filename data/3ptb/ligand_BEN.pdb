@@ -1,0 +1,38 @@
+HETATM 1632  C1  BEN A   1      -1.853  14.311  16.658  1.00 19.86           C  
+HETATM 1633  C2  BEN A   1      -2.107  15.653  16.758  1.00 19.86           C  
+HETATM 1634  C3  BEN A   1      -1.774  16.341  17.932  1.00 19.86           C  
+HETATM 1635  C4  BEN A   1      -1.175  15.662  19.005  1.00 19.86           C  
+HETATM 1636  C5  BEN A   1      -0.914  14.295  18.885  1.00 19.86           C  
+HETATM 1637  C6  BEN A   1      -1.257  13.634  17.708  1.00 19.86           C  
+HETATM 1638  C   BEN A   1      -2.193  13.627  15.496  1.00 19.86           C  
+HETATM 1639  N1  BEN A   1      -2.797  14.235  14.491  1.00 19.86           N  
+HETATM 1640  N2  BEN A   1      -1.762  12.391  15.309  1.00 19.86           N  
+CONECT   48 1007                                                                
+CONECT  185  298                                                                
+CONECT  298  185                                                                
+CONECT  384 1631                                                                
+CONECT  397 1631                                                                
+CONECT  421 1631                                                                
+CONECT  461 1631                                                                
+CONECT  811 1521                                                                
+CONECT  853 1327                                                                
+CONECT 1007   48                                                                
+CONECT 1084 1190                                                                
+CONECT 1190 1084                                                                
+CONECT 1265 1422                                                                
+CONECT 1327  853                                                                
+CONECT 1422 1265                                                                
+CONECT 1521  811                                                                
+CONECT 1631  384  397  421  461                                                 
+CONECT 1631 1673 1676                                                           
+CONECT 1632 1633 1637 1638                                                      
+CONECT 1633 1632 1634                                                           
+CONECT 1634 1633 1635                                                           
+CONECT 1635 1634 1636                                                           
+CONECT 1636 1635 1637                                                           
+CONECT 1637 1632 1636                                                           
+CONECT 1638 1632 1639 1640                                                      
+CONECT 1639 1638                                                                
+CONECT 1640 1638                                                                
+CONECT 1673 1631                                                                
+CONECT 1676 1631                                                                

@@ -1,0 +1,18 @@
+dataset:
+  items:
+    - id: "3ptb"
+      poses:
+        - "data/3ptb/ligand.sdf"
+        - "runs/3ptb_smina/pose_1.sdf"
+        - "runs/3ptb_smina/pose_2.sdf"
+        - "runs/3ptb_smina/pose_3.sdf"
+        - "runs/3ptb_smina/pose_4.sdf"
+        - "runs/3ptb_smina/pose_5.sdf"
+        - "runs/3ptb_smina/pose_6.sdf"
+        - "runs/3ptb_smina/pose_7.sdf"
+        - "runs/3ptb_smina/pose_8.sdf"
+        - "runs/3ptb_smina/pose_9.sdf"
+        - "runs/3ptb_smina/pose_10.sdf"
+      conditions: { pH: 7.4, ionic_strength: 0.15 }
+model:
+  path: "artifacts/real_3ptb.joblib"
